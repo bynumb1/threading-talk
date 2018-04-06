@@ -1,5 +1,6 @@
 package com.bytespersecond.threading.factory;
 
-public class ArrayFactory {
+import com.bytespersecond.thread.sleeper.ThreadPause;
 
+public class ArrayFactory {
 }

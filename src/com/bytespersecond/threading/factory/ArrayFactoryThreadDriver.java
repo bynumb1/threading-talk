@@ -1,9 +1,8 @@
 package com.bytespersecond.threading.factory;
 
-public class ThreadDriver {
+public class ArrayFactoryThreadDriver {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
