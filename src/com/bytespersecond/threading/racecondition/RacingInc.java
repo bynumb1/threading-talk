@@ -8,10 +8,8 @@ public class RacingInc {
 	}
 	
 	public int getValue() {
-		return counter;
-	}
-	
-	public void inc() {
+		int copy = counter;
 		counter++;
+		return copy;
 	}
 }
