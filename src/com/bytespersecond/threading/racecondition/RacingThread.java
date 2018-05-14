@@ -14,10 +14,9 @@ public class RacingThread extends Thread {
 	
 	
 	public void run() {	
-		for(int i = 0; i < 25; i ++) {
-			ThreadPause.delay(delay);
+		for(int i = 0; i < 10; i ++) {
 			synchronized(counter) {
-				System.out.println(this.getName()+ "=> "+ counter.getValue());
+				System.out.println(this.getName()+ " => "+ counter.getValue());
 			}
 		}
 	}
