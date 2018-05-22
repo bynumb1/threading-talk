@@ -7,7 +7,7 @@ public class RacingInc {
 		counter = 0;
 	}
 	
-	public int getValue() {
+	public synchronized int getValue() {
 		int copy = counter;
 		counter++;
 		return copy;

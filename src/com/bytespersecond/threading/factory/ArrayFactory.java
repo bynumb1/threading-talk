@@ -10,9 +10,6 @@ public class ArrayFactory {
 			ThreadPause.delay(delay);
 			arr = new int[5];
 		}
-		
 		return arr;
-
-	
 	}
 }

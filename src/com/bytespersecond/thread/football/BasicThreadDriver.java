@@ -3,14 +3,11 @@ package com.bytespersecond.thread.football;
 public class BasicThreadDriver {
 
 	public static void main(String[] args) {
-		BasicThread t1 = new BasicThread("Brad");
-		BasicThread t2 = new BasicThread("Joe");
+		Thread t1 = new BasicThread();
 		t1.start();
-		t2.start();
 		
-		Thread t3 = new Thread(new BasicRunnable());
-		t3.start();
-
+		Thread r1 = new Thread(new BasicRunnable());
+		r1.start();
 	}
 
 }

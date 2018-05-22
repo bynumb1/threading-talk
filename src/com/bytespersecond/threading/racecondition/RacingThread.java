@@ -18,6 +18,7 @@ public class RacingThread extends Thread {
 			synchronized(counter) {
 				System.out.println(this.getName()+ " => "+ counter.getValue());
 			}
+			ThreadPause.delay(200);
 		}
 	}
 
